@@ -1,15 +1,14 @@
-import { ImageBackground } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
-const Untitled2 = () => {
+const Untitled5 = () => {
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.EJHYpQbB}><ImageBackground style={styles.xuJqOYTC} source={require("./dance5.png")} resizeMode="cover"></ImageBackground></View></ScrollView>
+    }}><View style={styles.ldNdtIXa}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -17,19 +16,19 @@ const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
   },
-  EJHYpQbB: {
-    height: 616,
-    width: 376,
+  ldNdtIXa: {
+    height: 583,
+    width: 502,
     backgroundColor: "#E4E4E4",
     borderRadius: 0,
     color: "#777777",
     position: "absolute",
-    left: -19,
-    top: -14
+    left: -25,
+    top: -10
   },
-  xuJqOYTC: {
-    width: 376,
-    height: 587
+  qWpAZKUS: {
+    width: 107,
+    height: 62
   }
 });
-export default Untitled2;
+export default Untitled5;
